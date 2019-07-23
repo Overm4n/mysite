@@ -325,7 +325,7 @@ h2{
     box-shadow: 0 0 4px 0px #00000047;
 }
 .el-commun a:hover{
-    
+    outline: 3px solid #6c9a29;
 }
 .contact-section{
     padding-top: 40px;
