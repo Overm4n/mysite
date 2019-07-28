@@ -406,6 +406,10 @@ footer{
 .contact-block{
     margin-bottom: 20px;
 }
+.submit-button{
+    margin: 0 auto;
+    margin-top: 20px;
+}
 }
 @media (max-width: 800px){
     .menu-block{
