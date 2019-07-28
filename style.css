@@ -335,11 +335,14 @@ h2{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 25px;
+    box-sizing: border-box;
 }
 .form-div{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .input-block input{
     width: 350px;
@@ -349,10 +352,7 @@ h2{
     border: 1px solid #33333373;
 }
 .textarea-block textarea{
-    
-}
-.textarea-block input{
-
+    min-height: 152px;
 }
 .input-block{
     width: 100%;
@@ -370,7 +370,16 @@ h2{
     margin-bottom: 2px;
 }
 .submit-button{
-
+    padding: 5px 45px;
+    margin-top: 10px;
+    background-color: #6c9a29;
+    border-radius: 5px;
+    border: 1px solid #63636357;
+    color: #fff;
+    box-shadow: 0 0 6px #636363;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 footer{
     width: 100%;
