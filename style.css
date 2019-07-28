@@ -296,6 +296,7 @@ h2{
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 .el-commun{
     width: 50%;
@@ -336,8 +337,11 @@ h2{
 .form-div{
 
 }
-.submit-button{
+.form-div label{
     
+}
+.submit-button{
+
 }
 footer{
     width: 100%;
