@@ -332,13 +332,40 @@ h2{
     padding-top: 40px;
 }
 .mail-form{
-
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .form-div{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-block input{
+    width: 350px;
+    border-radius: 5px;
+    padding: 2px 2px 2px 10px;
+    font-size: 1.2rem;
+    border: 1px solid #33333373;
+}
+.textarea-block textarea{
+    
+}
+.textarea-block input{
 
 }
+.input-block{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 .form-div label{
-    
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
 }
 .submit-button{
 
