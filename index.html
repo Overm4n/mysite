@@ -127,10 +127,22 @@
 				</div>
 			</div>
 		</div>
-		<form action = "https://formspree.io/ivan.kurkin@itfgo.com" method = "POST"> 
-			<input type = "text" name = "name" > 
-			<input type = "email" name = "_replyto" > 
-			<input type = "submit" value = "Send">
+		<h2>Отправить письмо на почту</h2>
+		<form action = "https://formspree.io/ivan.kurkin@itfgo.com" class="mail-form" method = "POST"> 
+			<div class="form-div">
+				<label>ФИО:</label>
+				<input type = "text" name = "name" > 
+				<label>Почта:</label>
+				<input type = "email" name = "email" > 
+				<label>Телефон:</label>
+				<input type = "tel" name = "tel" >
+			</div>
+			<div class="form-div">
+				<label>Текст письма:</label>
+				<textarea name = "text"></textarea> 
+			</div>
+			
+			<input type = "submit" class="submit-button" value = "Отправить">
 		</form>
 	</div>
 </section>
