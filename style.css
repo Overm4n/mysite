@@ -390,6 +390,22 @@ footer{
 .works-block, .contact-block{
     width: 100%;
 }
+.contact-section{
+    padding: 40px 5px 0px 5px;
+}
+.el-commun {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form-div {
+    width: 100%;
+}
+.input-block input {
+    width: 100%;
+}
+.contact-block{
+    margin-bottom: 20px;
+}
 }
 @media (max-width: 800px){
     .menu-block{
