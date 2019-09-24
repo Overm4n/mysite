@@ -206,6 +206,7 @@ h2{
     align-items: flex-start;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 .works-block{
     width: 1140px;
@@ -220,6 +221,9 @@ h2{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+}
+.contact-block h2{
+    margin-bottom: 15px;
 }
 .site-link-block{
     overflow: hidden;
@@ -380,6 +384,7 @@ h2{
     font-size: 1.3rem;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 footer{
     width: 100%;
