@@ -45,6 +45,7 @@ body{
     justify-content: center;
     align-items: flex-end;
     font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 4px #6f6f6f26;
 }
 .title-time{
     width: 100%;
@@ -55,6 +56,7 @@ body{
     align-items: flex-start;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 10px;
+    text-shadow: 0 0 4px #6f6f6f26;
 }
 .default-section{
     display: flex;
