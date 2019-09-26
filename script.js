@@ -88,6 +88,7 @@ for (var i = 0; i < this.getElementsByClassName('04').length; i++) {
 	// console.log(event.clientY-this.getBoundingClientRect().top);
 	
 }
+	// Восстановление положения блока
 function mouseleave_volume_block (event) {
 	this.setAttribute('style','transform: rotateX(0deg) rotateY(0deg) translateZ(0px); transition: all 1s ease 0s;');
 	for (var i = 0; i < this.getElementsByClassName('02').length; i++) {
@@ -100,6 +101,7 @@ function mouseleave_volume_block (event) {
 		this.getElementsByClassName('04')[0].setAttribute('style','transform: translateX(0px) translateY(0px) translateZ(0px); transition: all 1s ease 0s;');
 	}
 }
+	// Вешаю обработчики событий
 for (var i = 0; i < document.getElementsByClassName('inner').length; i++) {
 	document.getElementsByClassName('inner')[i].addEventListener("mousemove", volume_block, false);
 	document.getElementsByClassName('inner')[i].addEventListener("mouseleave", mouseleave_volume_block, false);
