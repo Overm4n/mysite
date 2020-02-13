@@ -11,16 +11,16 @@ window.onload = function () {
 	}
 	document.getElementById('time').innerHTML = Hours+':'+Minutes;
 	if (Date_time.getHours() >= 6 && Date_time.getHours() < 12) {
-		document.getElementById('header-banner').classList.add('morning');
+		document.getElementById('head-header-banner').classList.add('morning');
 		document.getElementById('title-time').innerHTML = 'Доброе утро.';
 	}else if(Date_time.getHours() >= 12 && Date_time.getHours() < 18){
-		document.getElementById('header-banner').classList.add('daytime');
+		document.getElementById('head-header-banner').classList.add('daytime');
 		document.getElementById('title-time').innerHTML = 'Добрый день.';
 	}else if(Date_time.getHours() >= 18 && Date_time.getHours() < 24){
-		document.getElementById('header-banner').classList.add('evening');
+		document.getElementById('head-header-banner').classList.add('evening');
 		document.getElementById('title-time').innerHTML = 'Добрый вечер.';
 	}else if(Date_time.getHours() >= 0 && Date_time.getHours() < 6){
-		document.getElementById('header-banner').classList.add('night');
+		document.getElementById('head-header-banner').classList.add('night');
 		document.getElementById('title-time').innerHTML = 'Доброй ночи.';
 	}
 	setTimeout(time,1000);
